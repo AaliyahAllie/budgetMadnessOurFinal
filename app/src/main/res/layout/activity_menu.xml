@@ -75,6 +75,13 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#4CAF50"
             android:text="Categories" />
+
+        <Button
+            android:id="@+id/btnViewBudget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4CAF50"
+            android:text="View Budget" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

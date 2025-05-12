@@ -32,7 +32,7 @@
             android:layout_marginBottom="24dp"
             android:contentDescription="App Logo"
             android:src="@drawable/ic_logo"
-            app:shapeAppearanceOverlay="@style/CircleImageView" />
+             />
 
         <EditText
             android:id="@+id/firstNameInput"

@@ -54,6 +54,10 @@ class MenuActivity : AppCompatActivity() {
             logEvent("User clicked on Categories button")
             startActivity(Intent(this, CategoriesActivity::class.java))
         }
+        findViewById<Button>(R.id.btnViewBudget).setOnClickListener {
+            logEvent("User clicked on Budget button")
+            startActivity(Intent(this, BudgetViewActivity::class.java))
+        }
     }
 
     private fun logEvent(message: String) {

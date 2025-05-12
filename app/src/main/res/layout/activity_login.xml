@@ -27,8 +27,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="24dp"
         android:contentDescription="App Logo"
-        android:src="@drawable/ic_logo"
-        app:shapeAppearanceOverlay="@style/CircleImageView" />
+        android:src="@drawable/ic_logo" />
 
     <EditText
         android:id="@+id/loginUsername"

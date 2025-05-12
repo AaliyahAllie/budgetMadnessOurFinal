@@ -117,7 +117,7 @@ class AddExpensesActivity : AppCompatActivity() {
         }
     }
 
-    @SuppressLint("SetTextI18n")
+
     private fun clearInputs() {
         expenseNameInput.text.clear()
         expenseAmountInput.text.clear()
